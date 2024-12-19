@@ -1,0 +1,73 @@
+# Compiled source code
+/bin/
+/target/
+/out/
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+*.iws
+
+# Eclipse
+/.settings/
+/*.classpath
+/*.project
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/.mvn/
+/.settings.xml
+*.log
+
+# Gradle
+/.gradle/
+/.gradle/
+build/
+
+# Generated files
+*.generated
+*.gz
+*.zip
+*.tar
+*.log
+*.tmp
+
+# Spring Boot
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# Test Reports
+/test-output/
+/surefire-reports/
+/test-results/
+
+# Coverage
+/.coverage
+/.coverage.*
+
+# Sensitive files
+*.key
+*.pem
+*.env
+.env
+.env.*
+
+# Package-specific
+!/src/main/
+!/src/test/
