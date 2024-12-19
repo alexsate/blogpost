@@ -81,5 +81,34 @@ The current implementation covers core requirements for production readiness. Fu
 - Enhancing notifications using AWS SES or similar services
 - Building a frontend to consume the API
 
+## Instructions to Run the Application
+### Prerequisites
+1. Install [Java 21](https://adoptium.net/) on your system.
+2. Install [Maven](https://maven.apache.org/) for building and running the application.
+
+### Steps to Run
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+2. Build the project:
+   ```bash
+   mvn clean install
+   ```
+3. Run the application:
+   ```bash
+   mvn spring-boot:run
+   ```
+4. Access the API:
+   - Swagger UI: `http://localhost:8080/swagger-ui.html`
+   - API Base URL: `http://localhost:8080/api/posts`
+
+### Running Tests
+Run the unit tests using the following command:
+```bash
+mvn test
+```
+
 ## Summary
 This implementation provides a robust starting point for a blogging platform with a focus on development experience, scalability, low latency, and cost efficiency
